@@ -1,6 +1,6 @@
 # Pagination lightning web components
 
-![snippets](./Screenshot_1.png)
+![example](./Screenshot_1.png)
 
 </br>
 
