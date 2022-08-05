@@ -1,5 +1,15 @@
 # Pagination lightning web components
 
+</br>
+
+**Deploy to Salesforce Org:**
+<a href="https://githubsfdeploy.herokuapp.com?owner=gabrielzambrin&repo=lwc_pagination_component&ref=main">
+  <img alt="Deploy to Salesforce"
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+</a>
+
+</br>
+
 Exemplo de como utilizar
 
 ```xml
@@ -25,8 +35,3 @@ handlePagination(event){
   this.result = event.detail;
 }
 ```
-
-<a href="https://githubsfdeploy.herokuapp.com?owner=gabrielzambrin&repo=lwc_pagination_component&ref=main">
-  <img alt="Deploy to Salesforce"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
-</a>
