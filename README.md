@@ -1,6 +1,6 @@
 # Pagination lightning web components
 
-Exemplo de como utilziar
+Exemplo de como utilizar
 
 ```xml
 <c-lwc_-pagination 
@@ -12,16 +12,14 @@ Exemplo de como utilziar
 ```
 ** O nome do evento(onpaginationpage) é composto por: onpagination + componentname(page) **
 
-No .js inicializar a paginacao: 
-
+No .js, inicializar a paginacao: 
 ```js
 this.template.querySelector('[data-id="page"]').handleInit(result);
 ```
-
 Onde **result** é a variavel que armazena os valores a serem paginados.
 
-Metodo auxiliar para paginacao. Nesse metodo é onde guarda os registos da pagina atual.
 
+Metodo auxiliar para paginacao. Nesse metodo é onde guarda os registos da pagina atual:
 ```js
 handlePagination(event){
   this.result = event.detail;
