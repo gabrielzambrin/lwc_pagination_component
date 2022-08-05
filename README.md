@@ -1,5 +1,7 @@
 # Pagination lightning web components
 
+![snippets](./Screenshot_1.png)
+
 </br>
 
 **Deploy to Salesforce Org:**
